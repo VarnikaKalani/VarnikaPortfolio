@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -21,7 +22,7 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">Varnika Kalaniy</div>
+      <div class="logo">Varnika Kalani</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -36,6 +37,7 @@
         </div>
       </div>
     </nav>
+
     <section id="profile">
       <div class="section__pic-container">
         <img src="assets/me.JPG" alt="Varnika Kalani profile picture" />
@@ -45,13 +47,18 @@
         <h1 class="title">Varnika Kalani</h1>
         <p class="section__text__p2">Data Analyst</p>
         <div class="btn-container">
+          <a
+            class="btn btn-color-2"
+            href="assets/resume.pdf"
+            target="_blank"
+            download
+          >
+            Download Resume
+          </a>
           <button
-          class="btn btn-color-2"
-          onclick="window.open('Varnika%20Kalani%20Resume.pdf', '_blank')"
-        >
-          Download Resume
-        </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            class="btn btn-color-1"
+            onclick="location.href='#contact'"
+          >
             Contact Info
           </button>
         </div>
@@ -71,259 +78,216 @@
         </div>
       </div>
     </section>
+
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
         <div class="section__pic-container">
-          <img
-            src="assets/scuba.JPEG"
-            alt="Profile picture"
-            class="about-pic"
-          />
+          <img src="assets/scuba.JPEG" alt="Profile picture" class="about-pic" />
         </div>
         <div class="about-details-container">
           <div class="about-containers">
             <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
+              <img src="assets/education.png" alt="Education icon" class="icon" />
               <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree in Data Science<br /></p>
-              <p>Minor in Business Administration & Management<br /></p>
+              <p>B.Sc. Bachelors Degree in Data Science</p>
+              <p>Minor in Business Administration & Management</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-                Hey there! I'm <strong>Varnika Kalani</strong>, a problem-solver and strategist who enjoys blending <strong>data, business, and creativity</strong>.  
-                I believe life is more than just numbers—it's about <strong>stories, experiences, and curiosity</strong>.
+              Hey there! I'm <strong>Varnika Kalani</strong>, a problem-solver and strategist who enjoys blending
+              <strong>data, business, and creativity</strong>. I believe life is more than just numbers—it's about
+              <strong>stories, experiences, and curiosity</strong>.
             </p>
-        
             <p><strong>What I Do:</strong></p>
-        
             <ul>
-                <li><strong>Data & Strategy:</strong> Turning insights into impactful decisions using Python, SQL, and analytics.</li>
-                <li><strong>Tennis & Photography:</strong> Passionate about the sport and capturing moments with my grandfather's old camera.</li>
-                <li><strong>Creative Thinking:</strong> Whether it's problem-solving, storytelling, or design, I enjoy bringing ideas to life.</li>
-                <li><strong>Travel & Scuba Diving:</strong> Exploring new places and diving into adventure—both literally and figuratively.</li>
+              <li><strong>Data & Strategy:</strong> Turning insights into impactful decisions using Python, SQL, and analytics.</li>
+              <li><strong>Tennis & Photography:</strong> Passionate about the sport and capturing moments with my grandfather's old camera.</li>
+              <li><strong>Creative Thinking:</strong> Whether it's problem-solving, storytelling, or design, I enjoy bringing ideas to life.</li>
+              <li><strong>Travel & Scuba Diving:</strong> Exploring new places and diving into adventure—both literally and figuratively.</li>
             </ul>
-        
             <p class="closing-text">
-                I'm always excited to learn, create, and collaborate. Let's connect and build something meaningful.
+              I'm always excited to learn, create, and collaborate. Let's connect and build something meaningful.
             </p>
-        </div>
-        
+          </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
+      <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#experience'" />
     </section>
+
     <section id="experience">
-        <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Skills & Tools</h1>
-    
-        <div class="experience-details-container">
-            <div class="about-containers">
-                
-                <!-- Data & Analytics Section -->
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Data & Analytics</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
-                            <div>
-                                <h3>Python</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
-                            <div>
-                                <h3>SQL</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
-                            <div>
-                                <h3>Power BI</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
-                            <div>
-                                <h3>Tableau</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                    </div>
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills & Tools</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+
+          <div class="details-container">
+            <h2 class="experience-sub-title">Data & Analytics</h2>
+            <div class="article-container">
+              <article>
+                <img src="assets/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
                 </div>
-    
-                <!-- Technical & Software Section -->
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Technical & Software</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
-                            <div>
-                                <h3>G-Suite</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
-                            <div>
-                                <h3>Microsoft Office</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
-                            <div>
-                                <h3>Web Development</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
-                            <div>
-                                <h3>Java</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                    </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
                 </div>
-    
-                <!-- Creative & Design Section -->
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Creative & Design</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
-                            <div>
-                                <h3>Canva</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
-                            <div>
-                                <h3>Photoshop</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
-                            <div>
-                                <h3>Adobe Illustrator</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
-                            <div>
-                                <h3>Premiere Pro</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                    </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>Power BI</h3>
+                  <p>Intermediate</p>
                 </div>
-    
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>Tableau</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
             </div>
+          </div>
+
+          <div class="details-container">
+            <h2 class="experience-sub-title">Technical & Software</h2>
+            <div class="article-container">
+              <article>
+                <img src="assets/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>G-Suite</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>Microsoft Office</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>Web Development</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="details-container">
+            <h2 class="experience-sub-title">Creative & Design</h2>
+            <div class="article-container">
+              <article>
+                <img src="assets/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>Canva</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>Photoshop</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>Adobe Illustrator</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>Premiere Pro</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
         </div>
+      </div>
+      <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#projects'" />
     </section>
-    
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
-    </section>
+
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
-            <div class="article-container">
-              
-            </div>
             <h2 class="experience-sub-title project-title">Graph Based Network Analysis</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/VarnikaKalani/Graph-Based-Network-Analysis-Average-Distance-Calculation'"
               >
-                Github
-            </button>
+                GitHub
+              </button>
             </div>
           </div>
           <div class="details-container color-container">
-            <div class="article-container">
-             
-            </div>
             <h2 class="experience-sub-title project-title">Diabetes Prediction</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/VarnikaKalani/diabetes_prediction'"
               >
-                Github
+                GitHub
               </button>
             </div>
           </div>
           <div class="details-container color-container">
-            <div class="article-container">
-            </div>
             <h2 class="experience-sub-title project-title">Student Performance Analysis</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/VarnikaKalani/student-performance'"
               >
-                Github
+                GitHub
               </button>
             </div>
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
+      <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#contact'" />
     </section>
+
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:examplemail@gmail.com">vkalani@bu.edu</a></p>
+          <img src="assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+          <p><a href="mailto:vkalani@bu.edu">vkalani@bu.edu</a></p>
         </div>
         <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
+          <img src="assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
           <p><a href="https://www.linkedin.com/in/varnika-kalani/">LinkedIn</a></p>
         </div>
       </div>
     </section>
+
     <footer>
       <nav>
         <div class="nav-links-container">
@@ -335,13 +299,13 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2025 Varnika Kalani. All Rights Reserved.</p>
+      <p>Copyright © 2025 Varnika Kalani. All Rights Reserved.</p>
     </footer>
+
     <script src="script.js"></script>
+    <script type="module">
+      import { injectSpeedInsights } from "https://cdn.skypack.dev/@vercel/speed-insights";
+      injectSpeedInsights();
+    </script>
   </body>
 </html>
-
-<script type="module">
-  import { injectSpeedInsights } from "https://cdn.skypack.dev/@vercel/speed-insights";
-  injectSpeedInsights();
-</script>
